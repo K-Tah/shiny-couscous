@@ -1,0 +1,86 @@
+header {
+  height: 120px;
+  width: 100%;
+  background-color: #fff;
+  text-align: left;
+  background-attachment: scroll;
+  position: fixed;
+  top: 0;
+  left:0;
+}
+
+header h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 0 0;
+}
+
+header p {
+  font-size: 15px;
+  font-family: serif;
+  margin: 0 0;
+}
+
+header span {
+  color: #a9a9a9;
+}
+
+.menu-bar {
+  height: auto;
+  width: 100%;
+  background-color: #000;
+  text-align: left;
+  margin: 0 0;
+}
+
+.menu-bar a {
+  color: #fff;
+}
+
+.contents-wrapper {
+  margin-top: 120px;
+  height: 600px;
+  width: 100%;
+  background-image: url("./sample_GF.jpg");
+  background-size: cover;
+  padding: 20px 0 20px 0;
+}
+
+.content-test {
+  height: 90%;
+  width: 90%;
+  background-color: #fff;
+  padding: 10px 10px;
+  margin: 10px auto;
+}
+
+.content-test-head {
+  display: flex;
+}
+
+.content-test-head h3 {
+  width: 60%;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 3px double #000;
+}
+
+.updated-day {
+  width: 40%;
+  background-color: gray;
+  color: #fff;
+  padding: 3px 3px;
+  text-align: center;
+}
+
+footer {
+  height: 30px;
+  width: 100%;
+  background-color: #a9a9a9;
+  color: #fff;
+  padding: 5px 0 5px 0;
+}
+
+footer p {
+  margin: 0 0;
+}
