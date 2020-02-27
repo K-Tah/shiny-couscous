@@ -92,7 +92,7 @@ footer {
 .top-wrapper {
   height: auto;
   padding: 5px 5px;
-  background-image: url("./sample_GF.jpg");
+  background-image: url(sample_GF.JPG);
   background-size: cover;
 }
 
