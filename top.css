@@ -1,0 +1,179 @@
+@media screen and (min-width: 481px) {
+.top-wrapper {
+  height: auto;
+  padding: 50px 50px;
+  background-image: url("./sample_GF.jpg");
+  background-size: cover;
+}
+
+.title {
+  height: auto;
+  font-family: serif;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 50px;
+  border: 5px solid #fff;
+  background-color:rgba(105,105,105,0.5);
+}
+
+.title h1 {
+  font-size: 80px
+}
+
+.title h2 {
+  font-size: 50px;
+}
+
+.title p {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.contents-wrapper {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents-box {
+  position: relative;
+  display: block;
+  height: 220px;
+  width: 30%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.contents-box a {
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contents-box a:hover {
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+.contents a {
+  background-image: url("./contents_sample.png");
+}
+
+.bio a {
+  background-image: url("./bio_sample.jpg");
+}
+
+.now-loading a {
+  background-image: url("./coming_soon_sample.png");
+}
+
+footer {
+  color: #000;
+  background-color: #696969;
+  width: 100%;
+  height: auto;
+  font-family: "Book Antiqua";
+}
+
+}
+
+
+/* 以下スマートフォン用 */
+@media screen and (max-width: 480px) {
+
+body {
+  background-image: url("./sample_GF.jpg");
+  margin: 0 0;
+}
+
+.top-wrapper {
+  height: auto;
+  padding-top: 20px;
+  background-size: cover;
+}
+
+.title {
+  height: auto;
+  font-family: serif;
+  color: #fff;
+  text-align: center;
+  margin: 0 10px;
+  line-height: 25px;
+  border-top: 2px solid rgb(105, 105, 105);
+  border-bottom: 2px solid rgb(105, 105, 105);
+  background-color:rgba(105,105,105,0.5);
+}
+
+.title p {
+  font-family: "Book Antiqua";
+}
+
+.menu {
+  background-color: #fff;
+  height: auto;
+  width: 100%;
+  font-family: "Book Antiqua";
+}
+
+.contents-wrapper {
+  margin: 10px auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contents-box {
+  position: relative;
+  display: block;
+  height: 220px;
+  width: 92%;
+  text-align: center;
+  background-color: #fff;
+  margin: 5px 0 5px 0;
+}
+
+.contents-box a {
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: auto;
+}
+
+.contents-box a:hover {
+  transition: 0.5s;
+  opacity: 0.8;
+}
+
+.contents a {
+  background-image: url("./contents_sample.png");
+}
+
+.bio a {
+  background-image: url("./bio_sample.jpg");
+}
+
+.now-loading a {
+  background-image: url("./coming_soon_sample.png");
+}
+
+footer {
+  color: #000;
+  background-color: #696969;
+  width: 100%;
+  height: auto;
+  font-family: "Book Antiqua";
+}
+
+}
